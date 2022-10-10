@@ -1,9 +1,11 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 //Source: https://docs.unity3d.com/Manual/WheelColliderTutorial.html
-    
+
+
 public class CarControllerScript : MonoBehaviour {
     public List<AxleInfo> axleInfos; // the information about each individual axle
     public float maxMotorTorque; // maximum torque the motor can apply to wheel
@@ -24,6 +26,20 @@ public class CarControllerScript : MonoBehaviour {
                 axleInfo.rightWheel.motorTorque = motor;
             }
         }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+    // check if collision game obj has person script
+    // if yes, reload scene
+
+        WalkingScript walkingScript = collision.gameObject.GetComponent<WalkingScript>();
+
+        if(walkingScript != null)
+        { 
+            SceneManager.LoadScene("SampleScene");
+        }
+
     }
 }
     
