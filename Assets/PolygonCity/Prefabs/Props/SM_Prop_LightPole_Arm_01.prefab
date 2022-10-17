@@ -35,9 +35,9 @@ Transform:
   - {fileID: 6285532089750650395}
   - {fileID: 1566219138157361952}
   - {fileID: 5975866669980613340}
+  - {fileID: 3871577925700919399}
   - {fileID: 7803335484464412292}
   - {fileID: 4873119929687086996}
-  - {fileID: 3871577925700919399}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -150,12 +150,12 @@ GameObject:
   - component: {fileID: 3871577925700919399}
   - component: {fileID: 5708256506582402028}
   m_Layer: 0
-  m_Name: Point Light (5)
+  m_Name: Yellow2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3871577925700919399
 Transform:
   m_ObjectHideFlags: 0
@@ -168,7 +168,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 446466}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &5708256506582402028
 Light:
@@ -181,7 +181,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9528302, g: 0.7460999, b: 0.4269758, a: 1}
+  m_Color: {r: 1, g: 0.96657693, b: 0, a: 1}
   m_Intensity: 500
   m_Range: 0.3
   m_SpotAngle: 30
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 7803335484464412292}
   - component: {fileID: 6849739473415372527}
   m_Layer: 0
-  m_Name: Point Light (3)
+  m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -257,11 +257,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3364722859617721552}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.342, y: 4.819, z: 4.33}
+  m_LocalPosition: {x: 0.31, y: 4.25, z: 4.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 446466}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &6849739473415372527
 Light:
@@ -274,9 +274,9 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.2265538, g: 1, b: 0, a: 1}
-  m_Intensity: 500
-  m_Range: 0.3
+  m_Color: {r: 0.20250249, g: 0.5283019, b: 0.11712353, a: 1}
+  m_Intensity: 50
+  m_Range: 0.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -336,12 +336,12 @@ GameObject:
   - component: {fileID: 1566219138157361952}
   - component: {fileID: 7713361448439107872}
   m_Layer: 0
-  m_Name: Point Light (1)
+  m_Name: Red2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1566219138157361952
 Transform:
   m_ObjectHideFlags: 0
@@ -350,7 +350,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4883130097676302431}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.31, y: 4.1940002, z: 6.019995}
+  m_LocalPosition: {x: 0.31, y: 4.877, z: 6.019995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 446466}
@@ -367,8 +367,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.49019608, g: 0, b: 0, a: 0.12941177}
-  m_Intensity: 1
+  m_Color: {r: 0.49019608, g: 0, b: 0, a: 1}
+  m_Intensity: 400
   m_Range: 0.3
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -429,12 +429,12 @@ GameObject:
   - component: {fileID: 6285532089750650395}
   - component: {fileID: 1957019140491145296}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6285532089750650395
 Transform:
   m_ObjectHideFlags: 0
@@ -443,7 +443,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6583475481104302279}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.38999984, y: 4.174, z: 4.29}
+  m_LocalPosition: {x: 0.31, y: 4.877, z: 4.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 446466}
@@ -460,8 +460,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.49019608, g: 0, b: 0, a: 0.12941177}
-  m_Intensity: 1
+  m_Color: {r: 0.49019608, g: 0, b: 0, a: 1}
+  m_Intensity: 400
   m_Range: 0.3
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -522,12 +522,12 @@ GameObject:
   - component: {fileID: 5975866669980613340}
   - component: {fileID: 2327652598653955927}
   m_Layer: 0
-  m_Name: Point Light (2)
+  m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5975866669980613340
 Transform:
   m_ObjectHideFlags: 0
@@ -536,7 +536,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7754163144356743840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.41999984, y: 4.4699993, z: 4.320004}
+  m_LocalPosition: {x: 0.41999984, y: 4.569999, z: 4.320004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 446466}
@@ -553,7 +553,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9528302, g: 0.7460999, b: 0.4269758, a: 1}
+  m_Color: {r: 1, g: 0.96657693, b: 0, a: 1}
   m_Intensity: 500
   m_Range: 0.3
   m_SpotAngle: 30
@@ -615,7 +615,7 @@ GameObject:
   - component: {fileID: 4873119929687086996}
   - component: {fileID: 3603284509598916117}
   m_Layer: 0
-  m_Name: Point Light (4)
+  m_Name: Green2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -629,11 +629,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8003233920841773017}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.36999983, y: 4.819, z: 6.0200043}
+  m_LocalPosition: {x: 0.31, y: 4.25, z: 6.0200043}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 446466}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &3603284509598916117
 Light:
@@ -646,9 +646,9 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.2265538, g: 1, b: 0, a: 1}
-  m_Intensity: 500
-  m_Range: 0.3
+  m_Color: {r: 0.20250249, g: 0.5283019, b: 0.11712353, a: 1}
+  m_Intensity: 50
+  m_Range: 0.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10

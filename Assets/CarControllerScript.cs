@@ -37,9 +37,15 @@ public class CarControllerScript : MonoBehaviour {
 
         if(walkingScript != null)
         { 
-            SceneManager.LoadScene("SampleScene");
+            UIManager.instance.SetFeedbackText(TextStyle.RED, "You hit a person! Restarting...");
+            StartCoroutine(RestartTimer());
         }
 
+    }
+
+    IEnumerator RestartTimer() {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene("SampleScene");
     }
 }
     

@@ -9,7 +9,7 @@ public class Lightpole : MonoBehaviour
     private int index;
     public bool startsOn = false;
 
-    private float[] times = {1f, 1f, 2f};
+    private float[] times = {10f, 6f, 16f};
 
     private bool complete;
     
